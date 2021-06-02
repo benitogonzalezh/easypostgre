@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="easypostgre",
-    version="0.0.1",
+    version="0.0.2",
     author="Benito Gonzalez",
     author_email="benitogonzalezh@gmail.com",
     description="Wrapper to simplify the use of psycopg2 lib",

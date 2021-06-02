@@ -88,7 +88,7 @@ class DB():
           DELIMITER as ','"""
           
     with open(f'tmp_{tableName}.csv', 'r') as f:
-        DBconn.copy_expert(copy_sql, f)
+        self.copy_expert(copy_sql, f)
     self.commit()
 
     self.delete(f"tmp_{tableName}.csv")
