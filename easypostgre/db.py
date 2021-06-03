@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import psycopg2
-from decorators import trycatch
+from .customdecorators import trycatch
 
 class DB():
   def __init__(self, conndata):
